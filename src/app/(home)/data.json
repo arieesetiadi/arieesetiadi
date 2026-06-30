@@ -105,6 +105,36 @@
     "projects": [
         {
             "category": "Website",
+            "title": "idsMED Aesthetics",
+            "subtitle": "Corporate web platform for idsMED Aesthetics, a medical aesthetics brand",
+            "description": "Disclaimer : this is a company project — I was solely responsible for the front-end web implementation. The backend and CMS were handled by other team members.<br><br>A corporate web platform for idsMED Aesthetics, built under PT Eannovate Creative Technology. The site features brand and product showcases, before-after clinical results, doctor testimonials, and live Instagram embed integration. Includes a product catalog with real-time complex filtering, an academy section for training programs, and a clinic finder with real-time filtering and Google Maps integration. Authentication is handled via Google OAuth, and all forms are secured with invisible reCAPTCHA v2.",
+            "techStacks": [
+                "Laravel",
+                "Bootstrap",
+                "MySQL",
+                "Google OAuth",
+                "Google ReCaptcha",
+                "Google Analytics"
+            ],
+            "website": "https://aesthetics.idsmed.com/en",
+            "github": null,
+            "demo": null,
+            "thumbnail": "/images/projects/idsaes-1.png",
+            "gallery": [
+                "/images/projects/idsaes-1.png",
+                "/images/projects/idsaes-2.png",
+                "/images/projects/idsaes-3.png",
+                "/images/projects/idsaes-4.png",
+                "/images/projects/idsaes-5.png",
+                "/images/projects/idsaes-6.png",
+                "/images/projects/idsaes-7.png",
+                "/images/projects/idsaes-8.png",
+                "/images/projects/idsaes-9.png",
+                "/images/projects/idsaes-10.png"
+            ]
+        },
+        {
+            "category": "Website",
             "title": "Kantanya Bali Tour",
             "subtitle": "Travel booking platform for a Bali-based tour agency",
             "description": "A full-featured travel booking website for Kantanya Bali Tour. Visitors can browse curated tour packages, explore destination galleries, and complete bookings in a few steps. Built with an admin panel using FilamentPHP for the client to manage packages and content independently without technical knowledge.",
@@ -131,7 +161,7 @@
             "category": "Web Application",
             "title": "Daikin E-Recruitment (Job Portal)",
             "subtitle": "Applicant-facing job portal for PT Daikin Airconditioning Indonesia",
-            "description": "A web-based recruitment portal for PT Daikin Airconditioning Indonesia, built under PT Eannovate Creative Technology. The platform allows applicants to browse open positions, submit applications, and track application status in real time. Includes OTP-based identity verification and email notifications for status updates. <br><br>Note: this is a company project — I was solely responsible for the applicant-facing web portal. The CMS and backend administration were handled by other team members.",
+            "description": "Disclaimer : this is a company project — I was solely responsible for the applicant-facing web portal. The CMS and backend administration were handled by other team members.<br><br>A web-based recruitment portal for PT Daikin Airconditioning Indonesia, built under PT Eannovate Creative Technology. The platform allows applicants to browse open positions, submit applications, and track application status in real time. Includes OTP-based identity verification and email notifications for status updates.",
             "techStacks": [
                 "Laravel",
                 "Bootstrap",

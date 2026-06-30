@@ -3,7 +3,7 @@
 import { useState } from "react";
 import KeenSlider from "@/components/keen-slider";
 import Modal from "@/components/modal";
-import DemoLink from "@/components/demo-link";
+import ProjectLink from "@/components/project-link";
 import { AnimateOnScroll } from "@/components/animate-on-scroll";
 import { Project } from "@/lib/types";
 
@@ -92,7 +92,8 @@ export default function SectionProjects({ projects }: { projects: Project[] }) {
                         </a>
                       </li>
                     )}
-                    {project.demo && <DemoLink href={project.demo} />}
+                    {project.website && <ProjectLink href={project.website} label="Website" />}
+                    {project.demo && <ProjectLink href={project.demo} />}
                   </ul>
                 </div>
               </Modal>

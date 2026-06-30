@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-export default function DemoLink({ href }: { href: string }) {
+export default function ProjectLink({ href, label = "Demo" }: { href: string; label?: string }) {
   const [isAccessible, setIsAccessible] = useState<boolean | null>(null);
 
   useEffect(() => {
@@ -43,9 +43,9 @@ export default function DemoLink({ href }: { href: string }) {
 
   return (
     <li>
-      <strong>Demo</strong>:{" "}
+      <strong>{label}</strong>:{" "}
       <a href={href} target="_blank" rel="noopener noreferrer">
-        <span style={{ textDecoration: "underline" }}>Demo URL</span>
+        <span style={{ textDecoration: "underline" }}>{label} URL</span>
       </a>
     </li>
   );
